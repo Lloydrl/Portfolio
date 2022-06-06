@@ -1,0 +1,61 @@
+*{padding: 0; margin: 0; box-sizing: border-box;}
+
+body {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+h1 {
+    font-family: 'Darker Grotesque', sans-serif;
+}
+
+h2, h3 {
+    font-family: 'Darker Grotesque', sans-serif;
+}
+
+p {
+    font-family: 'Darker Grotesque', sans-serif;
+}
+
+header {
+    background-color: rgb(165, 188, 176);
+
+}
+
+img {
+    width: 220px;
+    height: 190px;
+    border-radius: 90px;
+    padding: 20px;
+}
+
+nav {
+    font-size: 40px;
+    height: 100vh;
+    background: url("https://ideawallpapers.com/wp-content/uploads/2021/12/sage-green-wallpaper-iphone-8.jpg");
+    background-size: cover;
+    background-blend-mode: multiply;
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+}
+nav p {
+    padding-bottom: 10px;;
+}
+
+a {
+    color: black;
+    margin: 4px;
+    padding: 4px 16px;
+    border-radius: 4px;
+}
+
+a:hover {
+    cursor: pointer;
+    background: rgba(255, 255, 255, 0.2);
+    backdrop-filter: blur (2px);
+}
+
+.gallery-item {
+    width: 50%
+}
