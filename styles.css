@@ -24,12 +24,20 @@ main p {
     padding: .5em 1em;
 }
 
-img {
+header img {
     width: 220px;
     height: 190px;
     border-radius: 90px;
     border: 2px solid white;
     padding: 5px;
+}
+
+img {
+    max-width: 70%;
+    border: 1px solid rgb(68, 68, 68);
+    box-shadow: rgb(106, 106, 106) 1px 0 10px;
+    padding: .5em;
+    padding-bottom: 2em;
 }
 
 header{
@@ -80,6 +88,10 @@ hr {
 
 footer p{
     text-align: center;
+}
+
+a {
+    color: black;
 }
 
 @media (min-width: 1100px) {
