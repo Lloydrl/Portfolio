@@ -1,49 +1,67 @@
 *{padding: 0; margin: 0; box-sizing: border-box;}
 
+
 body {
-    display: flex;
-    flex-wrap: wrap;
+    display: grid;
 }
 
 h1 {
-    font-family: 'Darker Grotesque', sans-serif;
+    font-size: 3em;
+    font-family: 'Nanum Myeongjo', serif;
+    text-align: center;
+    margin-bottom: 0;
 }
 
 h2, h3 {
     font-family: 'Darker Grotesque', sans-serif;
+    font-size: 2em;
+    text-align: center;
+    margin: 20px;
 }
 
-p {
+main p {
     font-family: 'Darker Grotesque', sans-serif;
-}
-
-header {
-    background-color: rgb(165, 188, 176);
-
+    padding: .5em 1em;
 }
 
 img {
     width: 220px;
     height: 190px;
     border-radius: 90px;
-    padding: 20px;
+    border: 2px solid white;
+    padding: 5px;
+}
+
+header{
+    background: url("https://i0.wp.com/www.luamaralstudio.com/wp-content/uploads/2022/01/sage-green-aesthetic-wallpaper-iphone-23.jpeg?resize=980%2C1743&ssl=1");
+    background-size: cover;
+}
+
+header h2 {
+    text-align: center;
+    font-size: 2em;
+    margin-bottom: 20px;
+}
+
+.center {
+    text-align: center;
 }
 
 nav {
-    font-size: 40px;
-    height: 100vh;
-    background: url("https://ideawallpapers.com/wp-content/uploads/2021/12/sage-green-wallpaper-iphone-8.jpg");
-    background-size: cover;
+    text-align: center;
+    font-size: 25px;
     background-blend-mode: multiply;
     display: flex;
     flex-direction: column;
     padding: 10px;
+    margin-bottom: 60px;
 }
-nav p {
+p {
     padding-bottom: 10px;;
+    font-family: 'Darker Grotesque', sans-serif;
 }
 
-a {
+nav a {
     color: black;
     margin: 4px;
     padding: 4px 16px;
@@ -56,6 +74,22 @@ a:hover {
     backdrop-filter: blur (2px);
 }
 
-.gallery-item {
-    width: 50%
+hr {
+    margin: 1em;
+}
+
+footer p{
+    text-align: center;
+}
+
+@media (min-width: 1100px) {
+    nav {
+        font-size: 40px;
+        text-align: left;
+    }
+
+    .center {
+        text-align: left;
+    }
+
 }
