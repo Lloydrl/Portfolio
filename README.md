@@ -1,1 +1,1 @@
-**Please visit https://rachellloyd.net/ to see my portfolio
+Please visit https://rachellloyd.net/ to see my portfolio
