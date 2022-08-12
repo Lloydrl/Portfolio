@@ -35,17 +35,7 @@ h1 {
     }
 
     body a {
-        color: rgb(241, 219, 197);
-    }
-
-    nav {
-        padding-top: 2em;
-        font-size: 1.2em;
-    }
-
-    nav p {
-        /* box-shadow: inset 0px 0px 40px 40px #783e3e; */
-        text-shadow: 3px 3px 5px #513232;
+        color: rgba(73, 42, 42, .9);  
     }
 
     nav a:hover {
@@ -128,6 +118,10 @@ h1 {
 
     .tab_content h1 {
         margin-bottom: 1em;
+    }
+
+    .tab_content p {
+        font-size: 1.2em;
     }
 
     .tabs_radio:checked + .tabs_label {
