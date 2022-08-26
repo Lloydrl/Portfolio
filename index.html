@@ -14,22 +14,18 @@
 <body class="headerbackground">
     <div class="center"></div>
     <div class="tabs">
-        <!-- <nav class="flexrow shrink">
-            <p><a href="pages/about.html">About Me</a></p>
-            <p><a href="pages/experience.html">Experience</a></p>
-            <p><a href="pages/projects.html">Projects</a></p>
-            <p><a href="pages/education.html">Education</a></p>
-            <p><a href="pages/contactme.html">Contact Me</a></p>
-            <p><a href="https://docs.google.com/document/d/1j44ItA9fFW7WIG6fHl5m24UJpPcu133i5s805YLRC3o/edit?usp=sharing">Resume</a></p>
-        </nav> -->
+        <!-- Home Tab -->
         <input type="radio" class="tabs_radio" name="tabs_ex" id="home">
         <label for="home" class="tabs_label">Home</label>
-        
+        <!-- About Me Tab -->
         <input type="radio" class="tabs_radio" name="tabs_ex" id="aboutme">
         <label for="aboutme" class="tabs_label">About Me</label> 
-        <div class="tab_content">
+        <div class="tab_content" id="aboutmecontent">
             <h1>About Me</h1>
+            <img src="https://avatars.githubusercontent.com/u/104335313?v=4" alt="Rachel Lloyd">
+            <p>about me text</p>
         </div>
+        <!-- Education Tab -->
         <input type="radio" class="tabs_radio" name="tabs_ex" id="education">
         <label for="education" class="tabs_label">Education</label> 
         <div class="tab_content">
@@ -52,26 +48,35 @@
             <p>August 2016 - May 2019</p>
             <br>
         </div>
+        <!-- Projects Tab -->
         <input type="radio" class="tabs_radio" name="tabs_ex" id="projects">
         <label for="projects" class="tabs_label">Projects</label> 
         <div class="tab_content">
             <h1>Projects</h1>
+            <div>
+                <h3><u>Are You Free? Calendar</u></h3>
+                <p>calendar app that allows you to create events and add them to a calendar</p>
+            </div>
         </div>
+        <!-- Experience Tab -->
         <input type="radio" class="tabs_radio" name="tabs_ex" id="experience">
         <label for="experience" class="tabs_label">Experience</label> 
         <div class="tab_content">
             <h1>Experience</h1>
         </div>
+        <!-- Contact Me Tab -->
         <input type="radio" class="tabs_radio" name="tabs_ex" id="contact_me">
         <label for="contact_me" class="tabs_label">Contact Me</label> 
         <div class="tab_content">
             <h1>Contact Me</h1>
             <p>I can be reached via email or phone Monday through Friday from 8:00AM to 7:00PM</p>
-            <br>
-            <p>Email Address: rlloyd98@gmail.com</p>
-            <p>Phone Number: (540)940-4455</p>
-            <p>LinkedIn: <a href="https://www.linkedin.com/in/rachel-lloyd-66b810128/" target="blank">Rachel Lloyd</a></p>
-            <p>Github: <a href="https://github.com/Lloydrl" target="blank">github.com/Lloydrl</a></p>
+            <br><br>
+            <div class="border">
+                <p>Email Address: rlloyd98@gmail.com</p>
+                <p>Phone Number: (540)940-4455</p>
+                <p>LinkedIn: <a href="https://www.linkedin.com/in/rachel-lloyd-66b810128/" target="blank">Rachel Lloyd</a></p>
+                <p>Github: <a href="https://github.com/Lloydrl" target="blank">github.com/Lloydrl</a></p>
+            </div>
         </div>
     </div>
     <div class="vertcenter indented">
