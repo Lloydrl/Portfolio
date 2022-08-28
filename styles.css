@@ -88,6 +88,14 @@ nav a{
     text-align: center;
 }
 
+.projects img {
+    border: 1px solid rgb(211, 197, 197);
+}
+
+.chirp img {
+    width: 70vw;
+}
+
 /* CONTACT */
 
 .contact {
@@ -208,6 +216,13 @@ nav a{
         height: 100vh;
     }
 
+    .p-content {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-content: center;
+    }
+
     .projects h1 {
         font-size: 3.5em;
         margin: 0;
@@ -215,6 +230,11 @@ nav a{
         padding-top: 20px;
         padding-bottom: 20px;
         text-align: right;
+    }
+
+    .projects img {
+        width: 30vw;
+        margin: 10px;
     }
 
     /* CONTACT */
